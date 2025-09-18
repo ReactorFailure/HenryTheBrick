@@ -1,0 +1,17 @@
+{
+  "name": "henrythebrick",
+  "version": "1.0.0",
+  "description": "brick.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yea",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "discord.js": "^14.22.1",
+    "dotenv": "^17.2.2",
+    "npm": "^11.6.0"
+  }
+}
