@@ -8,17 +8,18 @@ A random Discord app that uses Google's Gemini API. I'll probably add random stu
 git clone https://github.com/ReactorFailure/HenryTheBrick.git
 ```
 
-- download necessary dependencies **(make sure you have Node.js and NPM installed 🤢)**:
+- Download necessary dependencies **(make sure you have Node.js and NPM installed 🤢)**:
 ```shell
 npm install
 ```
+- Rename `example.env` to `env` and paste in your app's token and client id, as well as your Google Gemini API key.
 
-- deploy slash commands:
+- Deploy slash commands (you can skip this step if you already loaded the commands):
 ```shell
 node deploy.js
 ```
 
-- run the app:
+- Run the app:
 ```shell
 node .
 ```
